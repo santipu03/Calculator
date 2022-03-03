@@ -37,19 +37,20 @@ body {
     margin: 20px 0;
     padding: 10px;
     color: #eee;
-    display: flex;
-    flex-direction: column;
 }
 
 .operations {
     font-size: 15px;
     color: #ccc;
-    align-self: end;
+    text-align: end;
+    height: 20px;
 }
 
 .result {
     font-size: 25px;
     text-align: end;
+    height: 30px;
+
 }
 
 .buttons {
@@ -68,6 +69,10 @@ body {
 
 .c {
     grid-column: 3/5;
+}
+
+.equals {
+    grid-column: 2/4;
 }
 
 button {
