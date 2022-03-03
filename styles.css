@@ -44,13 +44,12 @@ body {
 .operations {
     font-size: 15px;
     color: #ccc;
-    text-align: end;
+    align-self: end;
 }
 
 .result {
     font-size: 25px;
     text-align: end;
-
 }
 
 .buttons {
